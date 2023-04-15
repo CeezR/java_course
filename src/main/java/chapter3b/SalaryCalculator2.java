@@ -1,11 +1,11 @@
-package chapter4;
+package chapter3b;
 
 import java.util.Scanner;
 
 public class SalaryCalculator2 {
     public static void main(String[] args) {
         // Initialize know values
-        int salary = 1000;
+        // int salary = 1000;
         int minimumSales = 10;
 
         Scanner scanner = new Scanner(System.in);

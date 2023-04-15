@@ -1,4 +1,4 @@
-package chapter6;
+package chapter3d;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
