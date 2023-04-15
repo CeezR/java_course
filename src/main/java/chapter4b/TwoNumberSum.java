@@ -6,8 +6,8 @@ public class TwoNumberSum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        boolean loop = true;
-        while (loop) {
+        boolean loop;
+        do{
             // Ask for two numbers
             System.out.print("Enter two number separated by a comma: ");
             String[] numbers = scanner.next().split(",");
@@ -20,7 +20,7 @@ public class TwoNumberSum {
             // Ask for reset
             System.out.println("\n Do you wish to continue. Type true for Yes, false for No");
             loop = scanner.nextBoolean();
-        }
+        } while (loop);
 
     }
 }
