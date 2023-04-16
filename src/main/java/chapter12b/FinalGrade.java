@@ -3,7 +3,7 @@ package chapter12b;
 import java.util.HashMap;
 import java.util.Map;
 
-public class finalGrade {
+public class FinalGrade {
     public static void main(String[] args) {
         Map<String, Integer> grades1 = new HashMap<>();
         Map <String, Integer> grades2 = new HashMap<>();
