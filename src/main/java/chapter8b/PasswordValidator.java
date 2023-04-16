@@ -5,7 +5,7 @@ public class PasswordValidator {
         Password password = new Password();
         password.setUsername("johndoe");
         password.setOldPassword("johndoe");
-        password.setPassword("johndoe");
+        password.setPassword("joH%ndoe");
         // System.out.println(password.isPasswordValid());
     }
 }
