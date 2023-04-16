@@ -9,7 +9,6 @@ public class Password {
     private static final String TOO_SHORT_MESSAGE = "Password must be at least 8 characters long";
     private static final String SAME_AS_USERNAME_MESSAGE = "Password cannot be the same as the username";
     private static final String SAME_AS_OLD_PASSWORD_MESSAGE = "Password cannot be the same as the old password";
-
     private String username;
     private String oldPassword;
     private String validatedPassword;
